@@ -7,7 +7,7 @@
         left: 0;
         width: 100%;
         height: 100vh;
-        background-color: rgba(87, 107, 255, 0.406);
+        background-color: rgba(177, 129, 43, 0.406);
         z-index: 100;
         display: flex;
         align-items: center;
@@ -47,13 +47,13 @@
         text-align: center;
         font-size: 26px;
         font-weight: 500;
-        color: $color-title;
+        color: $main-color;
         margin-bottom: 20px;
     }
     .Customer-text{
         text-align: center;
         font-size: 18px;
-        color: $color-title;
+        color: $main-color;
         margin-bottom: 35px;
 
     }

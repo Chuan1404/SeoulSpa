@@ -17,7 +17,7 @@
 
       .Branch-title {
         font-size: 14px;
-        color: blue;
+        color: $main-color;
         margin-left: 10px;
         font-weight: 500;
       }
@@ -35,7 +35,6 @@
           &:hover {
             cursor: pointer;
             background-color: $main-color;
-            color: #b1812c;
           }
         }
         .active {
@@ -82,7 +81,7 @@
             border-radius: 5px;
             box-shadow: rgba(6, 33, 243, 0.4) 2px 2px;
             .Branch-distris {
-              color: rgb(234, 75, 101);
+              color: $main-color;
             }
             .Branch-address {
               font-size: 14px;

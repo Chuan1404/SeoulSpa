@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../assets/images/logo-spa-1.png";
+import { logo } from "../../assets/images";
 import { Link, useLocation } from "react-router-dom";
 import { BsTelephoneFill } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
@@ -39,7 +39,7 @@ const FooterTop = () => {
       <div className="FooterTop">
         <div className="FooterTop-swapper">
           <div className="Logo">
-            <img src={Logo} alt="" />
+            <img src={logo} alt="" />
           </div>
           <div className="FooterTop-title">
             HỆ THỐNG THẨM MỸ VIỆN HÀNG ĐẦU VIỆT NAM
@@ -50,7 +50,7 @@ const FooterTop = () => {
           </div>
           <Link to="/">
             <span
-              style={{ color: "red", marginRight: "20px", fontSize: "20px" }}
+              style={{ color: "#b1812c", marginRight: "20px", fontSize: "20px" }}
             >
               |
             </span>
@@ -61,7 +61,7 @@ const FooterTop = () => {
           <div className="FooterTop-title">HOT LINE</div>
           <button className="FooterTop-btn">
             <BsTelephoneFill
-              style={{ color: "rgb(234, 75, 101)", marginBottom: "-1px" }}
+              style={{ color: "#b1812c", marginBottom: "-1px" }}
             />{" "}
             1900 5555 - 188747863
           </button>
@@ -69,7 +69,7 @@ const FooterTop = () => {
           <div>
             <AiOutlineMail
               style={{
-                background: "rgb(234, 75, 101)",
+                background: "#b1812c",
                 padding: "5px",
                 fontSize: "24px",
                 borderRadius: "50%",
@@ -82,7 +82,7 @@ const FooterTop = () => {
           <div>
             <AiOutlineMail
               style={{
-                background: "rgb(234, 75, 101)",
+                background: "#b1812c",
                 padding: "5px",
                 fontSize: "24px",
                 borderRadius: "50%",
@@ -95,7 +95,7 @@ const FooterTop = () => {
           <div>
             <FaMapMarkerAlt
               style={{
-                background: "rgb(234, 75, 101)",
+                background: "#b1812c",
                 padding: "5px",
                 fontSize: "24px",
                 borderRadius: "50%",

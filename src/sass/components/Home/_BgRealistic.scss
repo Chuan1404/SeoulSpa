@@ -11,7 +11,7 @@
     }
     &__title{
         margin-bottom: 20px;
-        color: #d6032c;
+        color: $main-color;
         font-size: 2rem;
         letter-spacing: 1px;
         line-height: 20px;
@@ -20,7 +20,7 @@
     }
     &__desp{
         margin-bottom: 20px;
-        color: #d6032c;
+        color: $main-color;
         font-size: 1.6rem;
         font-weight: 500;
     }

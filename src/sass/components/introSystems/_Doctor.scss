@@ -16,7 +16,7 @@
     .Doctor__container-text{
         border: 1px solid rgba(74, 128, 221, 0.2);
         border-radius: 10px;
-        box-shadow:0 8px 8px 0 rgba(103, 151, 255, .11), 0 12px 18px 0 rgba(103, 151, 255, .21);
+        box-shadow:0 8px 8px 0 $main-color;
         padding: 30px;
         max-width: 850px;
         background-color: $main-bg;
@@ -28,14 +28,14 @@
         
         .Doctor__text-title{
             font-size: 30px;
-            color: $color-title;
+            color: $main-color;
             text-align: center;
             margin-bottom: 20px;
             .line{
                margin: 10px 200px;
                 width: 400px;
                 height: 1px;
-                background: $color-title;
+                background: $main-color;
             }
           
         }

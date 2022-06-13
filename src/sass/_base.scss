@@ -8,6 +8,7 @@
     box-sizing: border-box;
     // -webkit-tap-highlight-color: transparent;
     user-select: none;
+    --swiper-theme-color: #b1812c;
 
 }
 
@@ -115,7 +116,7 @@ input{
     border: 1px solid #ccc;
     font-size: 1.6rem;
     &.active{
-        background-color: #B10224;
+        background-color: $main-color;
         color: #fff;
         font-weight: 500;
     }

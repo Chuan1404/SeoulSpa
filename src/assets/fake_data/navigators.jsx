@@ -148,10 +148,6 @@ const navigator = [
             },
         ]
     },
-    // {
-    //   display: 'Làm Đẹp Công Nghệ Cao',
-    //   base: '/dich-vu'
-    // },
     {
         display: 'Phun Xăm',
         base: '/dich-vu',
@@ -235,10 +231,6 @@ const navigator = [
     {
         display: 'Tuyển Dụng',
         base: '/tuyen-dung'
-    },
-    {
-        display: 'Store',
-        base: '/san-pham'
     }
 ]
 
